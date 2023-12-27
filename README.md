@@ -1,46 +1,69 @@
+#                                                                               BUSS PASS ISSUEANCE AND RENEWAL SYSTEM
+
+
+
+
+
+
 THIS PROJECT CONTAINS INFORMATION OF THE USER IN DATABASE THAT CONTAINS FOUR TABLES(apply,details,notify,users)
 
-# Users Table Contains
-id
-user_name
+## Users Table Contains
+Primary key(id)
 
-password
+Username(user_name)
 
-name
+Password(password)
 
-# Details Table Contains
+Name(name)
 
-name
+## Details Table Contains
 
-emailid
+Name(name)
 
-phone number(phoneno)
+Email id(emailid)
 
-photo
+Phone Number(phoneno)
 
-aadhar number(aadharno)
+Photo(photo)
 
-username
+Aadhar Number(aadharno)
 
-# Apply Table Contains
+Username(username)
 
-name  fromlocation(fromloc)
-tolocation(toloc)
-fromduration(durationno)
-toduration(duration)
-uniqueid
-cost 
-distance(dist)
+## Apply Table Contains
 
-notify
+Name (name) 
 
-uniqueid(uid)
-floc
-tloc
-time
-cost
-fduration
-tduration
+From location(fromloc)
+
+To location(toloc)
+
+From duration(durationno)
+
+To duration(duration)
+
+Unique Number(uniqueid)
+
+Cost(cost )
+
+Distance(dist)
+
+# Notify Table Contains
+
+Uniqueid(uid)
+
+From location(floc)
+
+To location(tloc)
+
+Time(time)
+
+Cost(cost)
+
+From duration(fduration)
+
+To duration(tduration)
+
 
 
 
