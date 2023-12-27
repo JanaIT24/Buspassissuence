@@ -53,12 +53,6 @@ include "db_conn.php";
     function numberonly(input) {
       var num = /[^0-9]/;
       input.value = input.value.replace(num, "");
-      var phoneno = /^\d{10}$/;
-      if (input.value.length != phoneno) {
-        alert("Enter 10 digits only");
-      } else {
-        alert("Enter 10 digits only");
-      }
     }
 
     function letteronly(input) {
