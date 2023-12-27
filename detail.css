@@ -1,0 +1,71 @@
+.container {
+    background: #1690A7;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+    max-width: 500px;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+
+.error {
+    color: red;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+.sec {
+    float: left;
+    text-align: left;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 550;
+    margin-right: 8px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    background-color: rgb(94, 96, 110);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.container1 {
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+}
