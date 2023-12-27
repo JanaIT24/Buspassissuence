@@ -1,68 +1,79 @@
-#                                                                               BUSS PASS ISSUEANCE AND RENEWAL SYSTEM
+#  BUSS PASS ISSUEANCE AND RENEWAL SYSTEM
 
+## Features
 
+* User Registration and Authentication
 
+* Passenger Dashboard
 
+- User Registration
 
++ Apply pass and Pass Renewal
+
++ Pass Generation
+
+ + Distance Verification using Gmap
+
+# Database Information
 
 THIS PROJECT CONTAINS INFORMATION OF THE USER IN DATABASE THAT CONTAINS FOUR TABLES(apply,details,notify,users)
 
-## Users Table Contains
-Primary key(id)
+### Users Table Contains
+* Primary key(id)
 
-Username(user_name)
+* Username(user_name)
 
-Password(password)
+* Password(password)
 
-Name(name)
+* Name(name)
 
-## Details Table Contains
+### Details Table Contains
 
-Name(name)
+* Name(name)
 
-Email id(emailid)
+* Email id(emailid)
 
-Phone Number(phoneno)
+* Phone Number(phoneno)
 
-Photo(photo)
+* Photo(photo)
 
-Aadhar Number(aadharno)
+* Aadhar Number(aadharno)
 
-Username(username)
+* Username(username)
 
-## Apply Table Contains
+### Apply Table Contains
 
-Name (name) 
+* Name (name) 
 
-From location(fromloc)
++ From location(fromloc)
 
-To location(toloc)
++ To location(toloc)
 
-From duration(durationno)
++ From duration(durationno)
 
-To duration(duration)
++ To duration(duration)
 
-Unique Number(uniqueid)
++ Unique Number(uniqueid)
 
-Cost(cost )
++ Cost(cost )
 
-Distance(dist)
++ Distance(dist)
 
 # Notify Table Contains
 
-Uniqueid(uid)
++ Uniqueid(uid)
 
-From location(floc)
++ From location(floc)
 
-To location(tloc)
++ To location(tloc)
 
-Time(time)
++ Time(time)
 
-Cost(cost)
++ Cost(cost)
 
-From duration(fduration)
++ From duration(fduration)
 
-To duration(tduration)
++ To duration(tduration)
 
 
 
